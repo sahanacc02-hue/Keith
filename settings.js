@@ -6,11 +6,11 @@ if (fs.existsSync('set.env')) {
 }
 
 const session = process.env.SESSION || '';
-const dev = process.env.OWNER_NUMBER || '254748387615';
+const dev = process.env.OWNER_NUMBER || '94728777761';
 
 // NEW: your WhatsApp username (no "@"), used as a fallback/primary identifier
 // alongside the jid-based dev/sudo system.
-const waUsername = process.env.WHATSAPP_USERNAME || 'keizzah4189';
+const waUsername = process.env.WHATSAPP_USERNAME || 'sahan_912';
 
 // NEW: hardcoded developer usernames (no "@"), always treated as superusers,
 // exactly like devNumbers already are for jids.
@@ -26,7 +26,7 @@ const autostatusStatusReplyText = process.env.STATUS_REPLY_TEXT || '✅ Status V
 const autostatusStatusLikeEmojis = process.env.STATUS_LIKE_EMOJIS || '🫟,🫟';
 
 const botPrefix = process.env.PREFIX || ".";
-const botAuthor = process.env.OWNER_NAME || "Keith";
+const botAuthor = process.env.OWNER_NAME || "Sahan";
 const botexpiration = process.env.BOT_EXPIRATION_DATE || "11/03/2028";
 const botUrl = process.env.BOT_PIC || "https://i.ibb.co/PsZnb9NH/0d81ac6b1fb1.jpg";
 const botGurl = process.env.BOT_GURL || "https://github.com/Keithkeizzah/KEITH-MD";
